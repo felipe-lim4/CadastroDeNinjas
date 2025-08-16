@@ -1,4 +1,4 @@
-package com.fiasco.CadastroDeNinjas;
+package com.fiasco.CadastroDeNinjas.Controller;
 
 
 import org.springframework.web.bind.annotation.GetMapping;
@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping
-public class Controller {
+public class NinjaController {
 
     @GetMapping("/boasvindas")
     public String boasVindas() {
